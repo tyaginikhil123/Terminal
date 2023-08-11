@@ -1,0 +1,28 @@
+.command-input{
+    width: 90%;
+    padding-right: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin:auto;
+    border: none; 
+    color: green;
+    box-sizing: border-box;
+}
+
+.command-input *{
+    position: relative;
+    float:left;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.inputBox{
+    background: transparent;
+    font-size:30px;
+    color:green;
+    outline: none;
+    border: none;
+    padding:0;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+}

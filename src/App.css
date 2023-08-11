@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  background-color: #312820;
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.command-output{
+  width: 90%;
+  padding: 10px;
+  height: 90%;
+  box-sizing: border-box;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #312820;
+}
+
+.outputText{
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  float: left;
+  margin: 0;
+  padding:0;
+}
+
+.outputText a{
+  color: white;
+}
+

@@ -1,0 +1,13 @@
+@keyframes blinking1 {
+    from, to { background-color: transparent; }
+    50% { background-color: green; }
+}
+.cursor{
+    animation: blinking2 1s step-end infinite;
+
+}
+
+@keyframes blinking2{
+    from,to{opacity: 0;}
+    50%{opacity: 1;}
+}
